@@ -1,0 +1,27 @@
+#website_header{
+  color:white;
+  font-size: 25px;
+  background-color:#ecc6d9;
+  padding:60px;
+  height:200px;
+}
+#wrap{
+  margin:0 auto;
+  text-align: center;
+}
+ul{
+  float:right;
+}
+li{
+  display:inline-block
+}
+.button{
+  color:white;
+  padding:20px 30px;
+  font-weight:bold;
+  text-decoration: unset;
+  text-transform: uppercase;
+  background:pink;
+  letter-spacing:2px;
+  border-radius:30px;
+}
