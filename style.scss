@@ -75,53 +75,7 @@ nav {
     transition: 0.3s ease;
   }
 }
-
-@media only screen and (min-width: 400em) {
-  nav {
-    padding: 0em;
-    ul {
-      display: flex;
-      flex-direction: row;
-      li {
-        padding: 1.5em;
-      }
-    }
-  }
-  #menu-toggle,
-  #mobile-menu-label {
-    display: none;
-  }
-  #mobile-menu-label {
-    padding: 1.5em 1em;
-  }
-}
-#menu-toggle {
-  opacity: 0;
-}
-
-
-#menu-toggle:checked ~ #menu {
-  display: flex;
-}
-
-#menu-icon {
-  position: relative;
-  float: right;
-  span{
-    display: block;
-    background: $brand-primary;
-    width: 24px;
-    height: 3px;
-    margin: 4px;
-    border-radius: 3px;
-    -webkit-transform-origin: center;
-    transform-origin: center;
-    -webkit-transition: 0.3s ease;
-    transition: 0.3s ease;
-  }
-}
-
-@media screen and (max-width: 3750px) {
+@media screen and (min-width: 750px) {
   nav {
     padding: 0em;
     ul {
